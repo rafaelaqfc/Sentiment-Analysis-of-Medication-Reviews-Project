@@ -6,6 +6,10 @@ Introduction
 
 Sentiment Analysis is an Natural Language Processing (NLP) application that classifies a text document or corpus’s emotional or sentimental tone, language, expression or point of view. Most of the time, emotions or attitudes can be positive, negative, somewhat positive and negative, mixed and so on. Therefore, sentiment analysis can help us to pick up and interpret the discursive patterns found in the language in order to understand and predict what are the evaluations and representations people are giving about a customer support, item bought, medication that has been taking, feedback analysis, market research, etc. In addition, classification tasks as this one can also give us clue about the audience by analyzing the demographics of the users.
 
+Project Goals
+
+The major goal of this project is to explore a dataset of medication reviews by analyzing the relationship between medications reviews, ratings given by their users, medications popularity throughout the time, testing hypothesis about the dataset distribution, among others. Similarly, it has the goal to create a machine learning model to predict the emotion or sentiment addressed in the users reviews or comments.
+
 Project Steps
 
 1. Data gathering/loading
