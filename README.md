@@ -8,7 +8,7 @@ Sentiment Analysis is an Natural Language Processing (NLP) application that clas
 
 Project Goals
 
-The major goal of this project is to explore a dataset of medication reviews by analyzing the relationship between medications reviews, ratings given by their users, medications popularity throughout the time, testing hypothesis about the dataset distribution, among others. Similarly, it has the goal to create a machine learning model to predict the emotion or sentiment addressed in the users reviews or comments.
+The major goal of this project is to explore a dataset of medication reviews by analyzing the relationship between medication reviews, ratings given by their users, medications popularity throughout time, and hypothesis-testing about the dataset distribution, among others. Similarly, it has the goal to create a machine learning model to predict the emotion or sentiment addressed in the users' reviews or comments. For that, it was used NLP techniques and different machine learning algorithms, such as Random Forest Classifier, Naive Bayes Classifier and Long-Short Term Memory (LSTM) to create different models.
 
 Project Steps
 
@@ -33,4 +33,6 @@ This project is organized in modules and notebooks. Similarly, they are suplemen
 8. Notebook 12 about data modeling with Long-Short Term Memory (LSTM) called `notebook_12_data_modeling_with_LSTM.ipynb` (in progress);
 10. Under `models` folder, the models `mnbc_model.joblib` and `rfc_model.pkl`;
 11. Uner `app` folder, the model `ensemble_model.pkl`, the model deployed in and API flask app called `app.py`, and the model testing file called `reviews_test_app_with_python.ipynb`.
+
+
 
