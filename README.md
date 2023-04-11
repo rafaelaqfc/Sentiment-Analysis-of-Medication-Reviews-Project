@@ -1,17 +1,16 @@
-# Sentiment Analysis of Medication Reviews
+### Sentiment Analysis of Medication Reviews
 
-This is my project about predicting sentiment analysis of medication reviews.
-
-Introduction
-
+## Introduction
 Sentiment Analysis is an Natural Language Processing (NLP) application that classifies a text document or corpus’s emotional or sentimental tone, language, expression or point of view. Most of the time, emotions or attitudes can be positive, negative, somewhat positive and negative, mixed and so on. Therefore, sentiment analysis can help us to pick up and interpret the discursive patterns found in the language in order to understand and predict what are the evaluations and representations people are giving about a customer support, item bought, medication that has been taking, feedback analysis, market research, etc. In addition, classification tasks as this one can also give us clue about the audience by analyzing the demographics of the users.
 
-Project Goals
-
+## Project Goals
 The major goal of this project is to explore a dataset of medication reviews by analyzing the relationship between medication reviews, ratings given by their users, medications popularity throughout time, and hypothesis-testing about the dataset distribution, among others. Similarly, it has the goal to create a machine learning model to predict the emotion or sentiment addressed in the users' reviews or comments. For that, it was used NLP techniques and different machine learning algorithms, such as Random Forest Classifier, Naive Bayes Classifier and Long-Short Term Memory (LSTM) to create different models.
 
-Project Steps
+## Hypothesis
 
+
+
+## Project Steps
 1. Data gathering/loading
 2. Data exploration (EDA)
 3. Text preprocessing
@@ -19,8 +18,7 @@ Project Steps
 5. Model building, evaluation and hyperparameter tunning
 6. Model deployment
 
-Expectations from this Project
-
+## Expectations from this Project
 This project is organized in modules and notebooks. Similarly, they are suplemented with theory, comments and coding cells. In regards of the repo organization, this repository is divided into the modules below:
 
 1. Notebook 1 about data exploration (EDA) called `notebook_1_data_exploration.ipynb`;
@@ -34,5 +32,9 @@ This project is organized in modules and notebooks. Similarly, they are suplemen
 10. Under `models` folder, the models `mnbc_model.joblib` and `rfc_model.pkl`;
 11. Uner `app` folder, the model `ensemble_model.pkl`, the model deployed in and API flask app called `app.py`, and the model testing file called `reviews_test_app_with_python.ipynb`.
 
+## Challenges 
+During the execution of this project, many challenges were faced, starting with the dataset. As we know, an unbalanced training data can lead a machine learning algorithm to perform bias classifications. Thus, since it was not balanced, many strategies had to be employed in order to bounce the training data. 
 
+
+## Future Goals
 
